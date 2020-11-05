@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.success-msg {
+  color: rgb(135, 216, 6);
+  padding: 8px 14px;
+}
+
+.error-msg {
+  color: rgb(209, 56, 9);
+  padding: 8px 14px;
 }
